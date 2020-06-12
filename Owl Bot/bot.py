@@ -1,4 +1,5 @@
 # bot.py
+# Made by PhonieZ Dev
 import os
 import random
 import discord
@@ -11,7 +12,7 @@ client = discord.Client()
 @client.event
 async def on_ready():
     print(f'{client.user} is ready to owl around.')
-    channel = client.get_channel(688451614998397001) 
+    channel = client.get_channel(channelidhere) 
     await channel.send('coo coo, owl is in town, again')
 @client.event
 async def on_member_join(member):
